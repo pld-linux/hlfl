@@ -1,5 +1,5 @@
 Summary:	High Level Firewall Language
-Summary(pl):	Wysoko poziomowy jezyk zapór ogniowych
+Summary(pl):	Wysokopoziomowy jêzyk zapór ogniowych
 Name:		hlfl
 Version:	0.60.0
 Release:	0.1
@@ -30,11 +30,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO doc/*hlfl doc/RoadMap doc/syntax.txt
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
-
-%clean
-rm -rf $RPM_BUILD_ROOT
