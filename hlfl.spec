@@ -1,12 +1,12 @@
 Summary:	High Level Firewall Language
 Summary(pl):	Wysokopoziomowy jêzyk zapór ogniowych
 Name:		hlfl
-Version:	0.60.0
+Version:	0.60.1
 Release:	0.1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.hlfl.org/hlfl/%{name}-%{version}.tar.bz2
-# Source0-md5:	92f242081800d1ff0887a13598c7ba36
+# Source0-md5:	77c8acce89a868059e74bd97dc55eb46
 URL:		http://www.hlfl.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
