@@ -6,6 +6,7 @@ Release:	0.1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.hlfl.org/hlfl/%{name}-%{version}.tar.bz2
+# Source0-md5:	92f242081800d1ff0887a13598c7ba36
 URL:		http://www.hlfl.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
