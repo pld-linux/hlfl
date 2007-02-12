@@ -1,5 +1,5 @@
 Summary:	High Level Firewall Language
-Summary(pl):	Wysokopoziomowy jêzyk zapór ogniowych
+Summary(pl.UTF-8):   Wysokopoziomowy jÄ™zyk zapÃ³r ogniowych
 Name:		hlfl
 Version:	0.60.1
 Release:	0.1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %{name} is a tool which can produce several types of firewalls from a
 given set of rules written in a special language also called hlfl.
 
-%description -l pl
-%{name} to narzêdzie pozwalaj±ce generowaæ regu³y zapór ogniowych z
-zadanego zestawu napisanego w specjalnym jêzyku zwanym hlfl.
+%description -l pl.UTF-8
+%{name} to narzÄ™dzie pozwalajÄ…ce generowaÄ‡ reguÅ‚y zapÃ³r ogniowych z
+zadanego zestawu napisanego w specjalnym jÄ™zyku zwanym hlfl.
 
 %prep
 %setup -q
