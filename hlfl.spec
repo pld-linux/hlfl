@@ -1,5 +1,5 @@
 Summary:	High Level Firewall Language
-Summary(pl.UTF-8):   Wysokopoziomowy język zapór ogniowych
+Summary(pl.UTF-8):	Wysokopoziomowy język zapór ogniowych
 Name:		hlfl
 Version:	0.60.1
 Release:	0.1
